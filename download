@@ -1,0 +1,24 @@
+# Secrets
+.env
+*.pem
+*.key
+credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Real billing exports (keep only sample data in git)
+data/*
+!data/sample_billing.csv
